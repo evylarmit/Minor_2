@@ -3,6 +3,7 @@ body {
     height: 1920px;
     border: 5px black solid;
 	margin: 0;
+	background-color: white;
 }
 
 .container {
@@ -12,10 +13,8 @@ body {
 }
 
 .opleiding {
-	width: 250px;
-	height: 250px;
 	box-sizing: border-box;
-	border: 10px white solid;
+	border: 0px white solid;
 	border-radius: 50%;
     margin: 30px;
 	overflow: hidden;
@@ -27,76 +26,138 @@ body {
     background-color: #E40428;
 	animation: float2 6s ease-in-out infinite;
 	position: absolute;
-	margin-top: 200px;
-
+	margin-top: 50px;
+	margin-left: 800px;
+	width: 250px;
+	height: 250px;
+}
+#mediavormgever2 {
+    background-color: #E40428;
+	animation: float2 6s ease-in-out infinite;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 50px;
+	width: 250px;
+	height: 250px;
+}
+#mediavormgever3 {
+    background-color: #E40428;
+	animation: float2 6s ease-in-out infinite;
+	position: absolute;
+	margin-top: 1000px;
+	margin-left: 900px;
+	width: 120px;
+	height: 120px;
 }
 #av-specialist{
     background-color: #FFDD00;
 	animation: float3 6s ease-in-out infinite;
 	position: absolute;
-	margin-left: 350px;
-	margin-top: 185px;
+	margin-top: 700px;
+	margin-left: 820px;
+	width: 200px;
+	height: 200px;
 }
 #fotographie{
     background-color: #FFDD00;
 	animation: float4 6s ease-in-out infinite;
 	position: absolute;
-	margin-left: 150px;
-	margin-top: 570px;
+	margin-top: 2000px;
+	margin-left: 2000px;
+	width: 250px;
+	height: 250px;
 }
 #mediamanager{
     background-color: #F59C00;
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
-	margin-left: 500px;
-	margin-top: 540px;
+	margin-top: 400px;
+	margin-left: 700px;
+	width: 250px;
+	height: 250px;
 }
 #redactiemedewerker{
     background-color: #E73188;
 	animation: float3 6s ease-in-out infinite;
 	position: absolute;
-	margin-left: 800px;
-	margin-top: 620px;
+	margin-top: 80px;
+	margin-left: 500px;
+	width: 240px;
+	height: 240px;
 }
+#redactiemedewerker2{
+    background-color: #E73188;
+	animation: float3 6s ease-in-out infinite;
+	position: absolute;
+	margin-top: 1200px;
+	margin-left: 100px;
+	width: 280px;
+	height: 280px;
+}
+
 #creative-software-developer{
     background-color: #0063AF;
 	animation: float4 6s ease-in-out infinite;
 	position: absolute;
-	margin-left: 75px;
-	margin-top: 920px;
+	margin-top: 50px;
+	margin-left: 220px;
+	width: 225px;
+	height: 225px;
 }
+
+#creative-software-developer2{
+    background-color: #0063AF;
+	animation: float4 6s ease-in-out infinite;
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 60px;
+	width: 225px;
+	height: 225px;
+}
+
 #expert-IT-en-devices{
     background-color: #0063AF;
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
-	margin-top: 1000px;
-	margin-left: 500px;
+	margin-top: 2000px;
+	margin-left: 2000px;
+	width: 250px;
+	height: 250px;
 }
 #mediamedewerker{
     background-color: #783F91;
 	animation: float2 6s ease-in-out infinite;
 	position: absolute;
-	margin-top: 1250px;
+	margin-top: 2000px;
+	margin-left: 2000px;
+	width: 250px;
+	height: 250px;
 }
 #allround-mediamaker{
     background-color: #783F91;
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
-	margin-top: 1500px;
-	margin-left: 600px;
+	margin-top: 900px;
+	margin-left: 50px;
+	width: 250px;
+	height: 250px;
 }
 #medewerker-sign{
     background-color: #783F91;
 	animation: float4 6s ease-in-out infinite;
 	position: absolute;
-	margin-top: 1550px;
-	margin-left: 250px;
+	margin-top: 380px;
+	margin-left: 380px;
+	width: 200px;
+	height: 200px;
 }
 #poduim-en-evenemententechniek{
     background-color: #2DB8C5;
-	animation: float3 6s ease-in-out infinite;
+	animation: float2 6s ease-in-out infinite;
 	position: absolute;
-	margin-left: 700px;
+	margin-left: 50px;
+	width: 150px;
+	height: 150px;
 }
 
 @keyframes float {
@@ -173,4 +234,8 @@ body {
 		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
 		transform: translatey(20px);
 	}
+}
+
+.intresse{
+
 }

@@ -49,6 +49,15 @@ body {
 	width: 120px;
 	height: 120px;
 }
+#mediavormgever4 {
+    background-color: #E40428;
+	animation: float2 6s ease-in-out infinite;
+	position: absolute;
+	margin-top: 1200px;
+	margin-left: 500px;
+	width: 200px;
+	height: 200px;
+}
 #av-specialist{
     background-color: #FFDD00;
 	animation: float3 6s ease-in-out infinite;
@@ -62,10 +71,10 @@ body {
     background-color: #FFDD00;
 	animation: float4 6s ease-in-out infinite;
 	position: absolute;
-	margin-top: 2000px;
-	margin-left: 2000px;
-	width: 250px;
-	height: 250px;
+	margin-top: 1600px;
+	margin-left: 100px;
+	width: 130px;
+	height: 130px;
 }
 #mediamanager{
     background-color: #F59C00;
@@ -73,6 +82,15 @@ body {
 	position: absolute;
 	margin-top: 400px;
 	margin-left: 700px;
+	width: 250px;
+	height: 250px;
+}
+#mediamanager2{
+    background-color: #F59C00;
+	animation: float 6s ease-in-out infinite;
+	position: absolute;
+	margin-top: 1200px;
+	margin-left: 500px;
 	width: 250px;
 	height: 250px;
 }
@@ -119,19 +137,19 @@ body {
     background-color: #0063AF;
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
-	margin-top: 2000px;
-	margin-left: 2000px;
-	width: 250px;
-	height: 250px;
+	margin-top: 1500px;
+	margin-left: 300px;
+	width: 260px;
+	height: 260px;
 }
 #mediamedewerker{
-    background-color: #783F91;
-	animation: float2 6s ease-in-out infinite;
+	background-color: #783F91;
+	animation: float4 6s ease-in-out infinite;
 	position: absolute;
-	margin-top: 2000px;
-	margin-left: 2000px;
-	width: 250px;
-	height: 250px;
+	margin-top: 1150px;
+	margin-left: 800px;
+	width: 220px;
+	height: 220px;
 }
 #allround-mediamaker{
     background-color: #783F91;
@@ -146,7 +164,7 @@ body {
     background-color: #783F91;
 	animation: float4 6s ease-in-out infinite;
 	position: absolute;
-	margin-top: 380px;
+	margin-top: 350px;
 	margin-left: 380px;
 	width: 200px;
 	height: 200px;
@@ -158,6 +176,15 @@ body {
 	margin-left: 50px;
 	width: 150px;
 	height: 150px;
+}
+#poduim-en-evenemententechniek2{
+    background-color: #2DB8C5;
+	animation: float2 6s ease-in-out infinite;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 1500px;
+	width: 280px;
+	height: 280px;
 }
 
 @keyframes float {
@@ -237,5 +264,19 @@ body {
 }
 
 .intresse{
+	background-color: #A1C855;
+	border-radius: 50%;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	margin-top: 650px;
+	margin-left: 300px;
+	
+}
 
+.intressep{
+	color: white;
+	text-align: center;
+	font-size: 100px;
+	padding-top: 50px;
 }

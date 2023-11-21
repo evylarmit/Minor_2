@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
 }
+h1, h2, h3 {
+    src: url(../fonts/NimbusSansT-BlackCondensed.otf);
+    font-family: NimbusSansT-BlackCondensed;
+}
 body {
     width: 1080px;
     height: 1920px;
-    border: 2px dashed red;
 }
 header {
     position: sticky;
@@ -26,8 +29,6 @@ header img {
     margin-left: 40px;
 }
 header h1 {
-    src: url(../fonts/NimbusSansT-BlackCondensed.otf);
-    font-family: NimbusSansT-BlackCondensed;
     font-weight: 100;
     color: white;
     font-size: 70px;
@@ -45,22 +46,48 @@ section {
     margin: 0 50px;
 }
 section h2 {
-    src: url(../fonts/NimbusSansT-BlackCondensed.otf);
-    font-family: NimbusSansT-BlackCondensed;
     font-weight: 300;
     color: rgb(228, 4, 40);
     font-size: 60px;
     margin: 50px 0;
 }
 section p {
-    src: url(../fonts/Nimbus\ Sans\ Bold.otf);
-    font-family: Nimbus Sans Bold;
-    width: 1005px;
+    src: url(../fonts/Nimbus\ Sans\ Black.otf);
+    font-family: Nimbus Sans Black;
+    width: 1000px;
     font-size: 25px;
+    padding: 15px 0;
 }
 section #headerTxt {    
     font-weight: 900;
+    src: url(../fonts/Nimbus\ Sans\ Bold.otf);
+    font-family: Nimbus Sans Bold;
 }
-
+section .mediavormgevenSubHeader {
+    color: rgb(228, 4, 40);
+    font-size: 30px;
+    margin: 15px 0;
+}
+.studentenWerk h2 b {
+    font-weight: 300;
+    color: rgb(228, 4, 40);
+}
+.studentenWerk h2{
+    font-weight: 300;
+    font-size: 60px;
+    margin: 50px;
+}
+.studentenWerkContainer {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin-left: 30px;
+    
+}
+.studentenWerkContainer div {
+    margin: 10px;
+    height: 450px;
+    background-color: black;
+    border-radius: 40px;
+}
 
 

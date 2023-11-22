@@ -23,6 +23,12 @@ header {
 #mediavormgeven {
     background-color: rgb(228, 4, 40);
 }
+#softwareDeveloper {
+    background-color: rgb(0, 99, 175);
+}
+#avSpecialist {
+    background-color: rgb(255, 221, 0);
+}
 header img {
     width: 120px;
     object-fit: contain;
@@ -32,7 +38,6 @@ header h1 {
     font-weight: 100;
     color: white;
     font-size: 70px;
-    width: 270px;
     margin-left: 70px;
     margin-top: auto;
     margin-bottom: auto;
@@ -47,9 +52,17 @@ section {
 }
 section h2 {
     font-weight: 300;
-    color: rgb(228, 4, 40);
     font-size: 60px;
     margin: 50px 0;
+}
+#mmediaVormgevenHeader {
+    color: rgb(228, 4, 40);
+}
+#softwareDeveloperHeader {
+    color: rgb(0, 99, 175);
+}
+#avSpecialistHeader {
+    color: rgb(255, 221, 0);
 }
 section p {
     src: url(../fonts/Nimbus\ Sans\ Black.otf);
@@ -63,14 +76,30 @@ section #headerTxt {
     src: url(../fonts/Nimbus\ Sans\ Bold.otf);
     font-family: Nimbus Sans Bold;
 }
-section .mediavormgevenSubHeader {
-    color: rgb(228, 4, 40);
+section h3 {
     font-size: 30px;
     margin: 15px 0;
 }
+.mediaVormgevenSubheader {
+    color: rgb(228, 4, 40);
+}
+.softwareDeveloperSubheader {
+    color: rgb(0, 99, 175);
+}
+.avSpecialistSubheader {
+    color: rgb(255, 221, 0);
+}
 .studentenWerk h2 b {
     font-weight: 300;
+}
+.studentenWerk h2 #mediaVormgevenWerk {
     color: rgb(228, 4, 40);
+}
+.studentenWerk h2 #softwareDeveloperWerk {
+    color: rgb(0, 99, 175);
+}
+.studentenWerk h2 #avSpecialistWerk {
+    color: rgb(255, 221, 0);
 }
 .studentenWerk h2{
     font-weight: 300;

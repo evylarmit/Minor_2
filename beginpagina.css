@@ -4,8 +4,8 @@ body {
 	border: 5px black solid; 
 	margin: 0; 
 	background-color: white; 
-	src: url(../fonts/NimbusSansT-BlackCondensed.otf); 	
-	font-family: NimbusSansT-BlackCondensed; 
+	src: url(../fonts/NimbusSansT-BlackCondensed.otf);
+    font-family: NimbusSansT-BlackCondensed;
 	} 
 	
 	.container { 
@@ -282,43 +282,26 @@ body {
 	text-decoration: none; 
 	} 
 	
-	 
-	 
-	
 	@keyframes float { 
-	
 	0% { 
-	
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
-	
 	transform: translatey(0px); 
-	
 	} 
 	
 	25% { 
-	
 	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
-	
 	transform: translatex(-20px); 
-	
 	} 
 	
 	50% { 
-	
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
-	
 	transform: translatex(0px); 
-	
 	} 
 	
 	75% { 
-	
 	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
-	
-	transform: translatey(-20px); 
-	
+	transform: translatey(-20px);
 	} 
-	
 	} 
 	
 	 
@@ -327,151 +310,83 @@ body {
 	@keyframes float2 { 
 	
 	0% { 
-	
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
-	
 	transform: translatex(0px); 
-	
 	} 
 	
 	25% { 
-	
 	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
-	
 	transform: translatey(-20px); 
-	
 	} 
 	
 	50% { 
-	
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
-	
 	transform: translatey(0px); 
-	
-	} 
-	
+	}
+
 	75% { 
-	
 	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
-	
 	transform: translatex(-20px); 
-	
 	} 
-	
 	} 
-	
-	 
-	 
 	
 	@keyframes float3 { 
-	
 	0% { 
-	
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
-	
 	transform: translatey(0px); 
-	
 	} 
 	
 	25% { 
-	
 	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
-	
 	transform: translatey(30px); 
-	
 	} 
 	
 	50% { 
-	
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
-	
 	transform: translatex(0px); 
-	
 	} 
 	
 	75% { 
-	
 	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
-	
 	transform: translatex(20px); 
-	
 	} 
-	
 	} 
-	
-	 
-	 
-	
+
 	@keyframes float4 { 
-	
 	0% { 
-	
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
-	
 	transform: translatex(0px); 
-	
 	} 
 	
 	25% { 
-	
 	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
-	
 	transform: translatex(30px); 
-	
 	} 
 	
 	50% { 
-	
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
-	
 	transform: translatey(0px); 
-	
 	} 
-	
 	75% { 
-	
 	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
-	
 	transform: translatey(20px); 
-	
 	} 
-	
 	} 
-	
-	 
-	 
 	
 	.intresse{ 
-	
 	background-color: #8FE507; 
-	
 	border-radius: 50%; 
-	
 	width: 500px; 
-	
 	height: 500px; 
-	
 	text-align: center; 
-	
 	position: absolute; 
-	
 	margin-top: 650px; 
-	
 	margin-left: 300px; 
-	
 	} 
 	
-	 
-	 
-	
 	.intressep{ 
-	
 	color: white; 
-	
 	text-align: center; 
-	
-	font-size: 80px; 
-	
-	padding-top: 80px; 
-	
+	font-size: 70px; 
+	padding-top: 100px; 
 	} 

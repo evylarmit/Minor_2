@@ -35,6 +35,9 @@ header {
 #redactieMedewerker {
     background-color: rgb(231, 49, 136);
 }
+#mediaMaker {
+    background-color: rgb(120, 63, 145);
+}
 header img {
     width: 120px;
     object-fit: contain;
@@ -76,6 +79,9 @@ section h2 {
 #redactieMedewerkerHeader {
     color: rgb(231, 49, 136);
 }
+#mediaMakerHeader {
+    color: rgb(120, 63, 145);
+}
 section p {
     src: url(../fonts/Nimbus\ Sans\ Black.otf);
     font-family: Nimbus Sans Black;
@@ -107,6 +113,9 @@ section h3 {
 .redactieMedewerkerSubHeader {
     color: rgb(231, 49, 136);
 }
+.mediaMakerSubheader {
+    color: rgb(120, 63, 145);
+}
 .studentenWerk h2 b {
     font-weight: 300;
 }
@@ -124,6 +133,9 @@ section h3 {
 }
 .studentenWerk h2 #redactieMedewerkerWerk {
     color: rgb(231, 49, 136);
+}
+.studentenWerk h2 #mediaMakerWerk {
+    color: rgb(120, 63, 145);
 }
 .studentenWerk h2{
     font-weight: 300;

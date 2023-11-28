@@ -1,284 +1,477 @@
-body {
-    width: 1080px;
-    height: 1920px;
-    border: 5px black solid;
-	margin: 0;
-	background-color: white;
-}
-
-.container {
-	width: 100%;
-	height: 100%;
-    margin-bottom: 100px;
-}
-
-.opleiding {
-	box-sizing: border-box;
-	border: 0px white solid;
-	border-radius: 50%;
-    margin: 30px;
-	overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-	transform: translatey(0px);
+body { 
+	width: 1080px; 
+	height: 1920px; 
+	border: 5px black solid; 
+	margin: 0; 
+	background-color: white; 
+	src: url(../fonts/NimbusSansT-BlackCondensed.otf); 	
+	font-family: NimbusSansT-BlackCondensed; 
+	} 
 	
-}
-#mediavormgever {
-    background-color: #E40428;
-	animation: float2 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 50px;
-	margin-left: 800px;
-	width: 250px;
-	height: 250px;
-}
-#mediavormgever2 {
-    background-color: #E40428;
-	animation: float2 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 300px;
-	margin-left: 50px;
-	width: 250px;
-	height: 250px;
-}
-#mediavormgever3 {
-    background-color: #E40428;
-	animation: float2 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 1000px;
-	margin-left: 900px;
-	width: 120px;
-	height: 120px;
-}
-#mediavormgever4 {
-    background-color: #E40428;
-	animation: float2 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 1200px;
-	margin-left: 500px;
-	width: 200px;
-	height: 200px;
-}
-#av-specialist{
-    background-color: #FFDD00;
-	animation: float3 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 700px;
-	margin-left: 820px;
-	width: 200px;
-	height: 200px;
-}
-#fotographie{
-    background-color: #FFDD00;
-	animation: float4 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 1600px;
-	margin-left: 100px;
-	width: 130px;
-	height: 130px;
-}
-#mediamanager{
-    background-color: #F59C00;
-	animation: float 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 400px;
-	margin-left: 700px;
-	width: 250px;
-	height: 250px;
-}
-#mediamanager2{
-    background-color: #F59C00;
-	animation: float 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 1200px;
-	margin-left: 500px;
-	width: 250px;
-	height: 250px;
-}
-#redactiemedewerker{
-    background-color: #E73188;
-	animation: float3 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 80px;
-	margin-left: 500px;
-	width: 240px;
-	height: 240px;
-}
-#redactiemedewerker2{
-    background-color: #E73188;
-	animation: float3 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 1200px;
-	margin-left: 100px;
-	width: 280px;
-	height: 280px;
-}
+	.container { 
+	width: 100%; 
+	height: 100%; 
+	margin-bottom: 100px; 
+	} 
+	
+	.opleiding { 
+	box-sizing: border-box; 
+	border: 0px white solid; 
+	border-radius: 50%; 
+	margin: 30px; 
+	overflow: hidden; 
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
+	transform: translatey(0px); 
+	} 
+	
+	#mediavormgever { 
+	background-color: #E40428; 
+	animation: float2 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-top: 45px; 
+	margin-left: 795px; 
+	width: 250px; 
+	height: 250px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 50px; 
+	text-decoration: none; 
+	} 
 
-#creative-software-developer{
-    background-color: #0063AF;
-	animation: float4 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 50px;
-	margin-left: 220px;
-	width: 225px;
-	height: 225px;
-}
+	#mediavormgever2 { 	
+	background-color: #E40428; 
+	animation: float2 6s ease-in-out infinite; 	
+	position: absolute; 	
+	margin-top: 295px; 	
+	margin-left: 45px; 	
+	width: 250px; 	
+	height: 250px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 0px; 
+	text-decoration: none; 
+	} 
+	
+	#mediavormgever3 { 
+	background-color: #E40428; 
+	animation: float2 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-top: 980px; 
+	margin-left: 895px; 
+	width: 150px; 
+	height: 150px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 0px; 
+	text-decoration: none; 
+	} 
+	
+	 
+	#av-specialist{ 
+	background-color: #FFDD00; 
+	animation: float3 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-top: 695px; 
+	margin-left: 815px; 	
+	width: 200px; 	
+	height: 200px; 	
+	color: white; 	
+	text-align: center; 	
+	font-size: 50px; 	
+	padding-top: 0px; 	
+	text-decoration: none; 	
+	} 
+	
+	#fotographie{ 	
+	background-color: #FFDD00; 	
+	animation: float4 6s ease-in-out infinite; 	
+	position: absolute; 	
+	margin-top: 1595px; 	
+	margin-left: 15px; 	
+	width: 200px; 	
+	height: 200px; 	
+	color: white; 	
+	text-align: center; 	
+	font-size: 40px; 	
+	padding-top: 40px; 	
+	text-decoration: none; 	
+	} 
 
-#creative-software-developer2{
-    background-color: #0063AF;
-	animation: float4 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 600px;
-	margin-left: 60px;
-	width: 225px;
-	height: 225px;
-}
+	#mediamanager{ 	
+	background-color: #F59C00; 	
+	animation: float 6s ease-in-out infinite; 	
+	position: absolute; 	
+	margin-top: 395px; 	
+	margin-left: 695px; 	
+	width: 250px; 	
+	height: 250px; 	
+	color: white; 	
+	text-align: center; 	
+	font-size: 50px; 	
+	padding-top: 50px; 	
+	text-decoration: none; 	
+	} 
+	
+	#mediamanager2{ 	
+	background-color: #F59C00; 	
+	animation: float 6s ease-in-out infinite; 	
+	position: absolute; 	
+	margin-top: 1255px; 	
+	margin-left: 495px; 	
+	width: 250px; 	
+	height: 250px; 	
+	color: white; 	
+	text-align: center; 	
+	font-size: 45px; 	
+	padding-top: 50px; 	
+	text-decoration: none; 	
+	} 
 
-#expert-IT-en-devices{
-    background-color: #0063AF;
-	animation: float 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 1500px;
-	margin-left: 300px;
-	width: 260px;
-	height: 260px;
-}
-#mediamedewerker{
-	background-color: #783F91;
-	animation: float4 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 1150px;
-	margin-left: 800px;
-	width: 220px;
-	height: 220px;
-}
-#allround-mediamaker{
-    background-color: #783F91;
-	animation: float 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 900px;
-	margin-left: 50px;
-	width: 250px;
-	height: 250px;
-}
-#medewerker-sign{
-    background-color: #783F91;
-	animation: float4 6s ease-in-out infinite;
-	position: absolute;
-	margin-top: 350px;
-	margin-left: 380px;
-	width: 200px;
-	height: 200px;
-}
-#poduim-en-evenemententechniek{
-    background-color: #2DB8C5;
-	animation: float2 6s ease-in-out infinite;
-	position: absolute;
-	margin-left: 50px;
-	width: 150px;
-	height: 150px;
-}
-#poduim-en-evenemententechniek2{
-    background-color: #2DB8C5;
-	animation: float2 6s ease-in-out infinite;
-	position: absolute;
-	margin-left: 700px;
-	margin-top: 1500px;
-	width: 280px;
-	height: 280px;
-}
-
-@keyframes float {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-	25% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatex(-20px);
-	}
-	50% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatex(0px);
-	}
-	75% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-20px);
-	}
-}
-
-@keyframes float2 {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatex(0px);
-	}
-	25% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-20px);
-	}
-	50% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-	75% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatex(-20px);
-	}
-}
-
-@keyframes float3 {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-	25% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(30px);
-	}
-	50% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatex(0px);
-	}
-	75% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatex(20px);
-	}
-}
-
-@keyframes float4 {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatex(0px);
-	}
-	25% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatex(30px);
-	}
-	50% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-	75% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(20px);
-	}
-}
-
-.intresse{
-	background-color: #8FE507;
-	border-radius: 50%;
-	width: 500px;
-	height: 500px;
-	text-align: center;
-	position: absolute;
-	margin-top: 650px;
-	margin-left: 300px;
-	src: url(../fonts/NimbusSansT-BlackCondensed.otf);
-    font-family: NimbusSansT-BlackCondensed;
-}
-
-.intressep{
-	color: white;
-	text-align: center;
-	font-size: 100px;
-	padding-top: 50px;
-}
+	#redactiemedewerker{ 	
+	background-color: #E73188; 	
+	animation: float2 6s ease-in-out infinite; 
+	position: absolute; 	
+	margin-top: 75px; 
+	margin-left: 495px; 
+	width: 240px; 
+	height: 240px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 40px; 
+	text-decoration: none; 
+	} 
+	
+	#redactiemedewerker2{ 
+	background-color: #E73188; 
+	animation: float3 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-top: 1195px; 
+	margin-left: 95px; 
+	width: 280px; 
+	height: 280px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 60px; 
+	text-decoration: none; 
+	} 
+	
+	#creative-software-developer{ 
+	background-color: #0063AF; 
+	animation: float3 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-top: 45px; 
+	margin-left: 220px; 
+	width: 225px; 
+	height: 225px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 40px; 
+	text-decoration: none; 
+	} 
+	
+	 
+	 
+	
+	#creative-software-developer2{ 
+	background-color: #0063AF; 
+	animation: float2 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-top: 595px; 
+	margin-left: 20px; 
+	width: 225px; 
+	height: 225px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 10px; 
+	text-decoration: none; 
+	} 
+	
+	#expert-IT-en-devices{ 
+	background-color: #0063AF; 
+	animation: float 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-top: 1555px; 
+	margin-left: 295px; 
+	width: 260px; 
+	height: 260px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px;
+	padding-top: 30px; 
+	text-decoration: none; 
+	} 
+	
+	#mediamedewerker{ 
+	background-color: #783F91; 
+	animation: float4 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-top: 1145px; 
+	margin-left: 795px; 
+	width: 220px; 
+	height: 220px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 30px; 
+	text-decoration: none; 
+	} 
+	
+	#allround-mediamaker{ 
+	background-color: #783F91; 
+	animation: float 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-top: 895px; 
+	margin-left: 45px; 
+	width: 250px; 
+	height: 250px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 40px; 
+	text-decoration: none; 
+	} 
+	
+	#medewerker-sign{ 
+	background-color: #783F91; 
+	animation: float4 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-top: 345px; 
+	margin-left: 375px; 
+	width: 200px; 
+	height: 200px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 0px; 
+	text-decoration: none; 
+	} 
+	
+	#poduim-en-evenemententechniek{ 
+	background-color: #2DB8C5; 
+	animation: float2 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-left: 35px; 
+	width: 150px; 
+	height: 150px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 0px; 
+	text-decoration: none; 
+	} 
+	
+	#poduim-en-evenemententechniek2{ 
+	background-color: #2DB8C5; 
+	animation: float2 6s ease-in-out infinite; 
+	position: absolute; 
+	margin-left: 695px; 
+	margin-top: 1495px; 
+	width: 280px; 
+	height: 280px; 
+	color: white; 
+	text-align: center; 
+	font-size: 50px; 
+	padding-top: 60px; 
+	text-decoration: none; 
+	} 
+	
+	 
+	 
+	
+	@keyframes float { 
+	
+	0% { 
+	
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
+	
+	transform: translatey(0px); 
+	
+	} 
+	
+	25% { 
+	
+	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
+	
+	transform: translatex(-20px); 
+	
+	} 
+	
+	50% { 
+	
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
+	
+	transform: translatex(0px); 
+	
+	} 
+	
+	75% { 
+	
+	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
+	
+	transform: translatey(-20px); 
+	
+	} 
+	
+	} 
+	
+	 
+	 
+	
+	@keyframes float2 { 
+	
+	0% { 
+	
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
+	
+	transform: translatex(0px); 
+	
+	} 
+	
+	25% { 
+	
+	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
+	
+	transform: translatey(-20px); 
+	
+	} 
+	
+	50% { 
+	
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
+	
+	transform: translatey(0px); 
+	
+	} 
+	
+	75% { 
+	
+	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
+	
+	transform: translatex(-20px); 
+	
+	} 
+	
+	} 
+	
+	 
+	 
+	
+	@keyframes float3 { 
+	
+	0% { 
+	
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
+	
+	transform: translatey(0px); 
+	
+	} 
+	
+	25% { 
+	
+	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
+	
+	transform: translatey(30px); 
+	
+	} 
+	
+	50% { 
+	
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
+	
+	transform: translatex(0px); 
+	
+	} 
+	
+	75% { 
+	
+	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
+	
+	transform: translatex(20px); 
+	
+	} 
+	
+	} 
+	
+	 
+	 
+	
+	@keyframes float4 { 
+	
+	0% { 
+	
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
+	
+	transform: translatex(0px); 
+	
+	} 
+	
+	25% { 
+	
+	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
+	
+	transform: translatex(30px); 
+	
+	} 
+	
+	50% { 
+	
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); 
+	
+	transform: translatey(0px); 
+	
+	} 
+	
+	75% { 
+	
+	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); 
+	
+	transform: translatey(20px); 
+	
+	} 
+	
+	} 
+	
+	 
+	 
+	
+	.intresse{ 
+	
+	background-color: #8FE507; 
+	
+	border-radius: 50%; 
+	
+	width: 500px; 
+	
+	height: 500px; 
+	
+	text-align: center; 
+	
+	position: absolute; 
+	
+	margin-top: 650px; 
+	
+	margin-left: 300px; 
+	
+	} 
+	
+	 
+	 
+	
+	.intressep{ 
+	
+	color: white; 
+	
+	text-align: center; 
+	
+	font-size: 80px; 
+	
+	padding-top: 80px; 
+	
+	} 

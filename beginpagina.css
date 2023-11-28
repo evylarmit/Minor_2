@@ -243,13 +243,13 @@ body {
 	animation: float4 6s ease-in-out infinite; 
 	position: absolute; 
 	margin-top: 345px; 
-	margin-left: 375px; 
-	width: 200px; 
-	height: 200px; 
+	margin-left: 355px; 
+	width: 250px; 
+	height: 250px; 
 	color: white; 
 	text-align: center; 
 	font-size: 50px; 
-	padding-top: 0px; 
+	padding-top: 20px; 
 	text-decoration: none; 
 	} 
 	
